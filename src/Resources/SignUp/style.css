@@ -1,0 +1,32 @@
+.Signup{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./login_page.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 3vh;
+}
+.formup{
+    background-color: #e65a50;
+    height: 60%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.signinsubmit{
+    height: 8vh;
+    width: 8vw;
+    border-radius: 10px;
+    border: 0px;
+    background-color: azure;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vh
+
+}
+

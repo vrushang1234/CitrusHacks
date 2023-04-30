@@ -1,0 +1,83 @@
+
+.nav{
+    height: 7vh;
+    width: 100vw;
+    background-color: #e65a50;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5vh;
+    position: fixed;
+    z-index: 5;
+    overflow-y: hidden;
+
+}
+
+.petlook{
+    position: absolute;
+    left: 45%;
+    cursor: pointer;
+}
+.signup{
+    float: right;
+    margin-right: 2%;
+    margin-top: 1vh;
+    height: 5vh;
+    width: 7vw;
+    border-radius: 10px;
+    background-color: #e86d64;
+    border: 0px;
+    color: white;
+    font-size: 2vh;
+}
+.signin{
+    float: right;
+    margin-right: 2%;
+    margin-top: 1vh;
+    height: 5vh;
+    width: 7vw;
+    border-radius: 10px;
+    background-color: #e86d64;
+    border: 0px;
+    color: white;
+    font-size: 2vh;
+}
+.logo{
+    height: 6vh;
+    position: absolute;
+    top: 12%;
+    left: 42%;
+}
+
+.signin:hover{
+    color: #e86d64;
+    background-color: white;
+}
+.signup:hover{
+    color: #e86d64;
+    background-color: white;
+}
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 10px;
+  }
+.hamburger-icon {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    left: 2%;
+    top: 15%;
+}
+
+.changebar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  .changebar2{opacity: 0;}
+  
+  .changebar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }

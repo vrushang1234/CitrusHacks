@@ -1,0 +1,66 @@
+.familypic{
+    height: 200px;
+    width: 300px;
+    border-radius: 30px;
+    z-index: 1;
+    transition: 1s;
+}
+.Families{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+.familypic:hover{
+    z-index: 10;
+    height: 220px;
+    width: 330px;
+}
+
+.firstfamily{
+    position: absolute;
+    top: 30%;
+    left: 17%;
+    z-index: 1;
+}
+.secondfamily{
+    position: absolute;
+    top: 48%;
+    left: 33%;
+    z-index: 2;
+}
+.thirdfamily{
+    position: absolute;
+    top: 28%;
+    left: 46%;
+    z-index: 1;
+}
+
+.fourthfamily{
+    position: absolute;
+    top: 65%;
+    left: 46%;
+    z-index: 3;
+}
+
+.fifthfamily{
+    position: absolute;
+    top: 60%;
+    left: 19%;
+    z-index: 3;
+}
+.sixthfamily{
+    position: absolute;
+    top: 45%;
+    left: 63%;
+}
+.p1header{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    opacity: 1;
+    transform: translate(-50%,10%);
+    font-size: 7vh;
+    color: #e65a50;
+    font-weight: bolder;
+}

@@ -1,0 +1,19 @@
+.Profile{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maintext{
+    height: 50vh;
+    width: 70vw;
+    border-radius: 30px;
+    font-size: 6vh;
+    text-align: center;
+    background-color: #e65a50;
+    color: white;
+}
+
